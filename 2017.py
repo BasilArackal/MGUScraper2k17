@@ -5,8 +5,8 @@ import PyPDF2
 import os
 import re
 
-examCodes = ['51', '44', '45', '46', '47', '48', '49', '59']
-examCode = 7
+examCodes = ['51', '44', '45', '46', '47', '48', '49', '59', '65']
+examCode = 8
 url = "http://projects.mgu.ac.in/bTech/btechresult/index.php?module=public&attrib=result&page=result"
 headers = {
         'content-type': "multipart/form-data; boundary=---011000010111000001101001",
